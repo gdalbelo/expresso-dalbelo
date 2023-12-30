@@ -8,7 +8,7 @@
   },
   "scripts": {
     "babel-version": "babel --version",
-    "build": "yarn",
+    "build": "cd frontend && yarn",
     "backend": "nodemon server.js",
     "frontend": "cd frontend && npm start",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\" ",
