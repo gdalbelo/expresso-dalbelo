@@ -1,0 +1,37 @@
+{
+  "name": "expresso-dalbelo",
+  "version": "1.0.0",
+  "description": "Portal Expresso Dal Belo",
+  "main": "server.js",
+  "scripts": {
+    "backend": "nodemon server.js",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" ",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "MERN",
+    "MongoDB",
+    "Express",
+    "React.js",
+    "Node.JS",
+    "Fullstack"
+  ],
+  "author": "Gabriel Santos Dal Belo",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "slug": "^8.2.3",
+    "styled-components": "^6.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
