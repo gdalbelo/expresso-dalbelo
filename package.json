@@ -25,6 +25,7 @@
   "author": "Gabriel Santos Dal Belo",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^8.2.2",
     "@babel/core": "^7.23.7",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
