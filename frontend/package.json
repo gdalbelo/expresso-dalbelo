@@ -18,6 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "babel-version": "babel --version",
     "build": "babel src -d lib",
     "start": "react-scripts start",
     "test": "react-scripts test",
