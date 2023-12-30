@@ -9,8 +9,6 @@
   "scripts": {
     "babel-version": "babel --version",
     "build": "babel src -d lib",
-    "prebuild": "jest",
-    "test": "jest",
     "backend": "nodemon server.js",
     "frontend": "cd frontend && npm start",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\" ",
