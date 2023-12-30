@@ -4,7 +4,7 @@
   "description": "Portal Expresso Dal Belo",
   "main": "server.js",
   "engines": {
-    "node": ">=18.18.0 < 20.9.0"
+    "node": "20.9.0"
   },
   "scripts": {
     "babel-version": "babel --version",
