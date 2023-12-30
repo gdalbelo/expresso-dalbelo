@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Portal Expresso Dal Belo",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  },
   "scripts": {
     "backend": "nodemon server.js",
     "frontend": "cd frontend && npm start",
